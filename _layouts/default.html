@@ -7,7 +7,11 @@
       {% feed_meta %}
    </head>
    <body>
-      {% include nav.html %}
-      {{ content }}
+      <div class="big-box">
+         {% include nav.html %}
+         <div class="content-box">
+            {{ content }}
+         </div>
+      </div>
    </body>
 </html>

@@ -1,3 +1,36 @@
+@font-face {
+    font-family: "Inter";
+    src:
+        local("Inter"),
+        url("/assets/fonts/Inter-Regular.woff2");
+}
+
+* {
+    font-family: "Inter";
+    font-weight: normal;
+}
+
 .current {
     color: green;
+}
+
+.big-box {
+    background: #bbb;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar .button {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-box {
+    padding: 10px;
 }
